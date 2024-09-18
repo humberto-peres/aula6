@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Horas Trabalhadas</title>
+</head>
+<body>
+    <center>
+        <h1>Calculadora de Horas Trabalhadas</h1>
+        <form action="/calculate" method="POST">
+            <label for="inputHour">Horário de Entrada: &nbsp;</label>
+            <input type="time" name="inputHour" id="inputHour" required><br><br>
+            <label for="endHour">Horário de Saída: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="time" name="endHour" id="endHour" required><br><br>
+            <label for="interval">Horário de Intervalo:</label> 
+            <input type="time" name="interval" id="interval"><br><br>
+            <input type="submit" value="Calcular" style="padding: 5px; width: 250px;">
+        </form>
+    </center>
+</body>
+</html>
